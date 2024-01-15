@@ -1,3 +1,3 @@
 # CSC 437
-Name: Pablo Gonzalez
+Name: Pablo Gonzalez  
 Chosen Domain: Baseball
