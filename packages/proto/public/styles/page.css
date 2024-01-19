@@ -1,0 +1,11 @@
+* {
+    background-color: red;
+}
+
+header {
+    background-color: navy;
+}
+
+header h1 {
+    color: white;
+}
