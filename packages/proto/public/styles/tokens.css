@@ -1,0 +1,8 @@
+:root {
+    --color-background-page: RGB(235, 235, 235);
+    --color-background-header: #0C2340;
+    --font-size-h1: 32px;
+    --content-padding-top: 25px;
+    --content-padding-left: 100px;
+    --header-padding-top: 25px;
+}
