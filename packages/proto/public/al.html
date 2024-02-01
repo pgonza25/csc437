@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/page.css">
+    <link rel="stylesheet" href="/styles/tokens.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/container.css">
+    <link rel="stylesheet" href="/styles/al.css">
     <title>American League</title>
 </head>
 <body>
@@ -13,27 +17,39 @@
             <p>The American League is composed of 3 divisions, with 5 teams in each division.</p>
             <p><a href="index.html">Home</a> > American League</p>
         </header>
-        <ul aria-label="AL West">
-            <li>Houston Astros</li>
-            <li>Los Angeles Angels</li>
-            <li>Oakland Athletics</li>
-            <li>Seattle Mariners</li>
-            <li>Texas Rangers</li>
-        </ul>
-        <ul aria-label="AL Central">
-            <li>Chicago White Sox</li>
-            <li>Cleveland Guardians</li>
-            <li>Detroit Tigers</li>
-            <li>Kansas City Royals</li>
-            <li>Minnesota Twins</li>
-        </ul>
-        <ul aria-label="AL East">
-            <li>Baltimore Orioles</li>
-            <li>Boston Red Sox</li>
-            <li><a href="yankees.html">New York Yankees</a></li>
-            <li>Tampa Bay Rays</li>
-            <li>Toronto Blue Jays</li>
-        </ul>
+        <div class="container">
+            <div class="al-west">
+                <p>AL West</p>
+                <ul>
+                    <li>Houston Astros</li>
+                    <li>Los Angeles Angels</li>
+                    <li>Oakland Athletics</li>
+                    <li>Seattle Mariners</li>
+                    <li>Texas Rangers</li>
+                </ul>
+            </div>
+            <div class="al-central">
+                <p>AL Central</p>
+                <ul>
+                    <li>Chicago White Sox</li>
+                    <li>Cleveland Guardians</li>
+                    <li>Detroit Tigers</li>
+                    <li>Kansas City Royals</li>
+                    <li>Minnesota Twins</li>
+                </ul>
+            </div>
+            <div class="al-east">
+                <p>AL East</p>
+                <ul>
+                    <li>Baltimore Orioles</li>
+                    <li>Boston Red Sox</li>
+                    <li><a href="yankees.html">New York Yankees</a></li>
+                    <li>Tampa Bay Rays</li>
+                    <li>Toronto Blue Jays</li>
+                </ul>
+            </div>
+        </div>
+     
     </article>
 </body>
 </html>
