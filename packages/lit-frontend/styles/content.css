@@ -1,0 +1,5 @@
+.content {
+    width: 75%;
+    padding-top: var(--content-padding-top);
+    padding-left: var(--content-padding-left);
+}

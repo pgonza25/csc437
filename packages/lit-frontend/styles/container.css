@@ -1,0 +1,6 @@
+.container {
+    display: flex;
+    margin: auto;
+    padding-top: var(--content-padding-top);
+    padding-left: var(--content-padding-left);
+}

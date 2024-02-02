@@ -1,0 +1,48 @@
+* {
+    background-color: var(--color-background-page);
+}
+
+body {
+    font-family: "Open Sans", Arial, Verdana, sans-serif;
+}
+
+header {
+    background-color: var(--color-background-header);
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: var(--font-size-h1);
+}
+
+header p, header a {
+    font-weight: 500;
+}
+
+header h1, header p, header p a {
+    background-color: var(--color-background-header);
+    color: white;
+}
+
+
+a {
+    color: RGB(50, 150, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+svg.icon {
+    display: inline;
+    height: 2em;
+    width: 2em;
+    vertical-align: bottom;
+    fill: currentColor;
+}
