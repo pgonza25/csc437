@@ -44,5 +44,6 @@ svg.icon {
     height: 2em;
     width: 2em;
     vertical-align: bottom;
-    fill: currentColor;
+    fill: white;
+    background-color: var(--color-background-header);
 }
